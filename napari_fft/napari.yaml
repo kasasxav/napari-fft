@@ -1,0 +1,9 @@
+name: napari-fft
+contributions:
+  commands:
+  - id: napari-fft.fft_widget
+    title: Fast Fourier Transform
+    python_name: napari_fft.main_module:fft_widget
+  widgets:
+  - command: napari-fft.fft_widget
+    display_name: Fast Fourier Transform
